@@ -1,0 +1,17 @@
+1) What precision was necessary for you to get good results for the different functions you tried?
+You had to make sure your math was correct; a small mistake, like forgetting a 0.5, can make the integration go off by a few points. I had to remind myself how to do Rieman again and used precision as my n-value 
+to figure out what the change of x was. Using that, I used the trapizoidal remiean sum to get a close estimate of the area of the integral. 
+
+2) Some functions require more or less precision for accuracy. What properties of a function might determine how much precision it needs?
+I remember my teacher saying this back when I was taking BC (Calculus I & II), she was describing how the calculator would do integrals, taking higher precision to get close enough to the area. For math, I believe
+it should be as precise as possible since they are numerical values that do calculations. Although the more arbitrary something might be, that can be less precise since random outputs from point a to b can't always
+predict which one it will be.
+
+3) The opposite of the integral is the derivative, which determines the slope of a function at a given point. How would you implement a function to approximate the derivative?
+I would need the function, what slope of the function it wants (f''(x)? f'''(x)?f'(x)?), and what to input for x. I would take that function and take a derivative of it (moving the power to the front and subtracting 1
+). The forloop would stop what whatever derivative it wanted and take the value of what to input for x and calculate the slope with mx+b.
+
+
+4) Calculus also cares about higher dimensional functions. Given a three dimensional function, f(x, y) -> z, how could you expand the method of Riemann sums to apply here?
+In honesty- I haven't learned about that. Although after a little research, I think the way to implement it is via double integrals. First, taking the sum of the areas of the rectangles, then the volume of the box. 
+With the Riemann sum becoming the volume of the box. 
